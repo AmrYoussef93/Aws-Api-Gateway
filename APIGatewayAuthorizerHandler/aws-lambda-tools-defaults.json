@@ -1,0 +1,16 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "ammmr",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp2.1",
+    "function-name" : "CustomLambdaApiGWAuthorizer",
+    "function-handler" : "APIGatewayAuthorizerHandler::APIGatewayAuthorizerHandler.Function::FunctionHandler",
+    "function-memory-size" : 128,
+    "function-role"        : "arn:aws:iam::937907730099:role/service-role/CustomLambdaApiGWAuthorizer-role-l4dvb55c",
+    "function-timeout"     : 120,
+    "function-runtime"     : "dotnetcore2.1",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"UserPoolClientId\"=\"7tbm4e2elpbsft4uom5l8h40bg\";\"Expo\"=\"AQAB\";\"UserPoolId\"=\"us-east-1_koleu63QR\";\"Issuer\"=\"https://cognito-idp.us-east-1.amazonaws.com/us-east-1_koleu63QR\";\"Key\"=\"gzbDSic7VgRLM7P474H_x7bmTAIWTHwl2o0t52mfNUpClml0JplYDn8GqPnnf0_Qwta4vHHjnC10ybxX_asN5j_lgUDKfEBXlCn2B1WI8AvR8YuD1VFDLArF8WiDPzkLixI-vFlstEr2m6smHHkvo1mJbkHdPvmY2UCv4SMsZ7KqIRW3PK1I5L_0FgqOOA-WwlAVOd_78Pk0z7BHGX-cGyJFbMWEO0KriooTCAUFjj1apztVeFq6mNU1Dd1jB7Y6QG15qO-zALiu4eKDMM0HQjRhHf30XO97tQ3FlheV6OVLWao4XxAE1SWqZyLWTtCasPdhUb3ZiRdBdDP8LZgJ5w\"",
+    "function-description"  : ""
+}
